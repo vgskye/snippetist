@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "snippetist",
+	"version": "${version}",
+	"name": "Snippetist",
+	"description": "Shortcodes for emojis, phrases, whatever.",
+	"authors": [
+		"Skye"
+	],
+	"contact": {
+		"sources": "https://github.com/vgskye/snippetist"
+	},
+	"license": "0BSD",
+	"icon": "assets/snippetist/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"vg.skye.snippetist.Snippetist"
+		]
+	},
+	"mixins": [
+		"snippetist.mixins.json"
+	],
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
